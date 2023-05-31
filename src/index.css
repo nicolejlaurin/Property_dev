@@ -254,29 +254,32 @@ body p{
 /*--------------------------LANDING PAGE--------------------------*/
 
 .landing {
-	text-align: left;
-	display: flex;
-	flex-direction: column;
-  background-image: url('./images/CN-36.png');
-  padding-top: 100px;
-  color: black;
-  background-size: 100rem;
-  margin-top: 80px;
-
+  background-image: url('./images/Home.png');
+	height:40rem;
+	width: 100%;
+	margin-top: 7rem;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+	justify-content: center;
+	background-attachment: fixed;
 }
 
 .landing h2 {
-	font-size: 15rem;
-  padding: 1rem 3rem 2rem 3rem;
+	font-size: 5rem;
+  padding: 0rem 3rem 2rem 3rem;
   font-weight: 500;
   margin: 0;
-font-family: 'Bebas Neue', sans-serif;
-}
+	color: white;
+	font-family: 'Jost', sans-serif;}
 
 .landing p{
   font-size: 20px;
-  font-weight: 100;
-  padding: 3rem 3rem 0rem 6rem;
+  font-weight: 200;
+  padding: 3rem 3rem 0rem 3rem;
   margin:0;
 }
 
@@ -301,34 +304,11 @@ font-family: 'Bebas Neue', sans-serif;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
 }
-
-@media(min-width:768px) {
-
-	.landing h2 {
-		font-size: 13rem;
-	  padding: 1rem 3rem 2rem 3rem;
-	  font-weight: 500;
-	  margin: 0;
-	font-family: 'Bebas Neue', sans-serif;
-	}
-
-	.landing p{
-    font-size: 20px;
-  	font-weight: 400;
-    padding-left: 3rem;
-    padding-right:6rem;
-  }
   .info{
     width:55rem;
    max-width:55rem;
   }
-  .landing{
-    padding-top: 90px;
-    min-height: 90vh;
 
-  }
-
-}
 
 @media only screen and (max-width: 768px) {
   .landing {
