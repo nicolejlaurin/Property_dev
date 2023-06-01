@@ -9,7 +9,7 @@ export default () => (
 		New Wave Property Group
 		</h2>
 		<div className='info'>
-			<p class="animated fadeInUp">Amplifying athletes name, image, likeness, and voices. Creating long lasting legacies and building brands to inspire more than just the sports industry.</p>
+			<p class="animated fadeInUp">We take your dream home and make it real.</p>
 			<Link to='/contactpage'>
 			<button className="button1">BOOK YOUR CONSULTATION</button>
 			</Link>

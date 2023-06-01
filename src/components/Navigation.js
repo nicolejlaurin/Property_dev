@@ -5,6 +5,19 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { Button } from './Button';
 import { useLocation } from "react-router";
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+
 const ScrollToTop = (props) => {
   const location = useLocation();
   useEffect(() => {
@@ -33,7 +46,7 @@ function Navigation() {
   window.addEventListener('resize', showButton);
   return (
 <body>
-  <nav className='navbar'>
+  <nav className='navbar' id="navbar">
     <div className='navbar-container'>
     <div class="navbar-left">
      <a href="/" aria-current="page" class="w-inline-block w--current">
@@ -50,7 +63,7 @@ function Navigation() {
     <NavLink to="/" className='nav-links' onClick={closeMobileMenu}>Home</NavLink>
   </li>
   <li>
-    <NavLink to="/aboutpage" className='nav-links' onClick={closeMobileMenu}>About Us</NavLink>
+    <NavLink to="/aboutpage" className='nav-links' onClick={closeMobileMenu}>About</NavLink>
   </li>
   <li>
     <NavLink  to="/service" className='nav-links' onClick={closeMobileMenu}>Services</NavLink>

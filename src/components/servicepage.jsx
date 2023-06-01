@@ -1,6 +1,4 @@
 import React from 'react';
-import Img_logo from '../images/CN-11.jpg';
-import Img_logo2 from '../images/CN-23.jpg';
 
 export default () => (
 	<div className='Service-CN'>

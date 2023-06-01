@@ -8,32 +8,20 @@ import About from './components/about';
 import AboutPage from './components/aboutpage';
 import Service from './components/service';
 import ServicePage from './components/servicepage';
-import Sports from './components/sports';
+import Projects from './components/projects';
 import Contact from './components/contact';
 import ContactPage from './components/contactpage';
 import Footer from './components/footer';
 import Navigation from './components/Navigation';
 import Client from './components/client';
-import FAQ from './components/faq';
 import Section1 from './components/service-section1';
 import Section2 from './components/service-section2';
 import Section3 from './components/service-section3';
 import MainSection5 from './components/main-section5';
 import Thankyou from './components/thankyou';
+import Testimonials from './components/testimonials';
+import Mid1 from './components/mid-section1';
 
-export default function App() {
-  return (
-    <div className='app'>
-		<Landing />
-		<About />
-		<Service />
-    <Sports />
-    <Contact />
-		<Footer />
-	</div>
-
-);
-}
 
 function toggleMobileMenu(menu) {
     menu.classList.toggle('open');
@@ -48,8 +36,10 @@ ReactDOM.render(
       <Route path="/" element={<>
   		<Landing />
   		<About />
+      <Mid1/>
       <Service />
-      <Sports />
+      <Projects />
+      <Testimonials/>
       <Contact />
   		</>} />
       <Route path="/about" element={<About />} />
@@ -61,9 +51,8 @@ ReactDOM.render(
       <Section3 />
 
   		</>} />
-      <Route path="/faq" element={<FAQ />} />
+      <Route path="/testimonials" element={<Testimonials />} />
       <Route path="/client" element={<Client />} />
-      <Route path="/sports" element={<Sports />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/contactpage" element={<ContactPage />} />
       <Route path="/servicepage" element={<ServicePage />} />
