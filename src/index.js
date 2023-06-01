@@ -13,7 +13,6 @@ import Contact from './components/contact';
 import ContactPage from './components/contactpage';
 import Footer from './components/footer';
 import Navigation from './components/Navigation';
-import Client from './components/client';
 import Section1 from './components/service-section1';
 import Section2 from './components/service-section2';
 import Section3 from './components/service-section3';
@@ -21,6 +20,7 @@ import MainSection5 from './components/main-section5';
 import Thankyou from './components/thankyou';
 import Testimonials from './components/testimonials';
 import Mid1 from './components/mid-section1';
+import Process from './components/process';
 
 
 function toggleMobileMenu(menu) {
@@ -38,6 +38,7 @@ ReactDOM.render(
   		<About />
       <Mid1/>
       <Service />
+      <Process/>
       <Projects />
       <Testimonials/>
       <Contact />
@@ -52,7 +53,6 @@ ReactDOM.render(
 
   		</>} />
       <Route path="/testimonials" element={<Testimonials />} />
-      <Route path="/client" element={<Client />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/contactpage" element={<ContactPage />} />
       <Route path="/servicepage" element={<ServicePage />} />
