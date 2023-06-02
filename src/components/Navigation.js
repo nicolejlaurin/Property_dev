@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from "react-router-dom";
-import Img_logo from '../images/logo3.png';
+import Img_logo from '../images/waveLogo.jpeg';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Button } from './Button';
 import { useLocation } from "react-router";
@@ -45,41 +45,41 @@ function Navigation() {
 
   window.addEventListener('resize', showButton);
   return (
-<body>
+
   <nav className='navbar' id="navbar">
-    <div className='navbar-container'>
-    <div class="navbar-left">
-     <a href="/" aria-current="page" class="w-inline-block w--current">
-     <img class="logo" src={Img_logo} href='/' alt="Image"></img>
-     </a>
-     </div>
-  <div className='menu-icon' onClick={handleClick}>
-    <i className={click ? 'fa fa-times':'fa fa-bars'}></i>
-  </div>
+      <div class="navbar-left">
+         <a href="/" aria-current="page" class="w-inline-block w--current">
+         <img class="logo" src={Img_logo} href='/' alt="Image"></img>
+         </a>
+      </div>
+      <div className='menu-icon' onClick={handleClick}>
+        <i className={click ? 'fa fa-times':'fa fa-bars'}></i>
+      </div>
+      <div class="navbar-right">
 
-  <ScrollToTop>
-  <ul className={click ? 'nav-menu active':'nav-menu'}>
-  <li>
-    <NavLink to="/" className='nav-links' onClick={closeMobileMenu}>Home</NavLink>
-  </li>
-  <li>
-    <NavLink to="/aboutpage" className='nav-links' onClick={closeMobileMenu}>About</NavLink>
-  </li>
-  <li>
-    <NavLink  to="/service" className='nav-links' onClick={closeMobileMenu}>Services</NavLink>
-  </li>
+        <ScrollToTop>
+        <ul className={click ? 'nav-menu active':'nav-menu'}>
+        <li>
+          <NavLink to="/" className='nav-links' onClick={closeMobileMenu}>Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/aboutpage" className='nav-links' onClick={closeMobileMenu}>About</NavLink>
+        </li>
+        <li>
+          <NavLink  to="/service" className='nav-links' onClick={closeMobileMenu}>Services</NavLink>
+        </li>
 
-  <li>
-    <NavLink to="/contactpage" className='nav-links' onClick={closeMobileMenu}>Contact</NavLink>
-  </li>
+        <li>
+          <NavLink to="/contactpage" className='nav-links' onClick={closeMobileMenu}>Contact</NavLink>
+        </li>
 
-  </ul>
-</ScrollToTop>
+        </ul>
+      </ScrollToTop>
+      </div>
 
-</div>
 </nav>
 
-</body>
+
 
 
   );
