@@ -9,7 +9,7 @@ export default () => (
 			ABOUT US
 			</h4>
 			<p>
-			Pro-Found is dedicated to providing the highest quality representation that will plan, support, and guide our clients throughout their entire professional life. We excel with a different approach in the sports business world. We understand playing careers don’t last forever, but we create sports entrepreneurs.Our company is committed to creating an inclusive and diverse workspace, building long lasting relationships beyond its contractual.
+			New Wave Property Group is dedicated to providing the highest quality representation that will plan, support, and guide our clients throughout their entire professional life. We excel with a different approach in the sports business world. We understand playing careers don’t last forever, but we create sports entrepreneurs.Our company is committed to creating an inclusive and diverse workspace, building long lasting relationships beyond its contractual.
 	    </p>
 		</div>
 		<div className='abt-back2'>
@@ -33,7 +33,7 @@ export default () => (
 		<div className="aboutpage-split">
 			<img src={Img_logo} id="about-img"></img>
 			<div className="aboutpage-text">
-				<h4 class="name"> Clinton Noel</h4>
+				<h4 class="name"> Founder</h4>
 				<p>
 				Clinton Noel is a 2019 graduate of Huston Tillotson University undergrad (HBCU) and 2021 graduate of St. Thomas University with a MBA in Sports Administration, specialization in Marketing certification. Noel finished his collegiate basketball career at his alma mater Huston Tillotson. Shortly after graduation, Noel followed his desires and passion to help athletes optimize their careers. Noel's core values are integrity, dedication, transparency, and innovation.
 				</p>

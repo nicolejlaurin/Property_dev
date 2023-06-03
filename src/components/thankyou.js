@@ -1,5 +1,4 @@
 import React from 'react';
-import Img_logo from '../images/CN-32.jpg';
 
 
 export default () => (

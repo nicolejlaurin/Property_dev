@@ -1,6 +1,7 @@
 import React from 'react';
 import Img_logo from '../images/about-section.jpg';
 import SecondPage from './aboutpage';
+import Arrow from '../images/arrow.png';
 import { Link }  from 'react-router-dom';
 import { BsArrowRight } from "react-icons/bs";
 import './scroll'
@@ -19,9 +20,7 @@ export default function About() {
         That means collaborating with the places where we work, customizing developments to meet the neighborhoods’ specific needs, and identifying the highest and best use for each property — all while keeping each local community's best interest front and center.
         </p>
         <Link to='/aboutpage'>
-          <button className="about-button button2" >Learn more -></button>
-          <link src={BsArrowRight}></link>
-
+          <button className="button2" >Learn more           <BsArrowRight class= "arrow-image" width={'2rem'}></BsArrowRight> </button>
         </Link>
       </div>
       <img class= "about-image" src={Img_logo}></img>

@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Img_logo from '../images/CN-8.jpg';
-
 
 export default () => (
-	<div class="container2">
+	<div class="contact">
 		<div class="contact-split animated reveal fade-bottom">
 			<div class="contact-split-left">
 				<h3>Contact Us</h3>
