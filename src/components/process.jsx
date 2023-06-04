@@ -6,7 +6,7 @@ export default () => (
   <div class='process-split animated reveal fade-bottom'>
     <div class='process-split-inner'>
   		<h4>
-  		Work in Process
+  		Development Process
   		</h4>
   		<p>1. Land Acquisition</p>
       <p>2. Pre-application advise</p>
