@@ -175,8 +175,25 @@ body p{
 
 /*--------------------------LANDING PAGE--------------------------*/
 
+#myVideo{
+	min-height: 100%;
+	min-width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+ 	pointer-events: none;
+	z-index:0;
+
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+
+}
+
 .landing {
-  background-image: url('./images/Home.png');
 	height:51rem;
 	width: 100%;
 	-webkit-background-size: cover;
@@ -578,16 +595,54 @@ size: 20;
 	padding: 0rem 0rem 3rem 0rem;
 	resize:none;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
 
-.item h2{
-	text-align: center;
+.container h4{
+	resize:none;
 	font-size: 30px;
 	font-weight: 200;
-	padding: 0rem 0rem 0.5rem 0rem;
+	padding: 2rem 2rem 0.5rem 2rem;
 	resize:none;
 	margin: 0;
 }
+
+.container:hover p{
+	line-height:26px;
+	font-size: 15px;
+	font-weight: 300;
+	padding: 0rem 1rem 0rem 1rem;
+	resize: none;
+	text-align: left;
+}
+.pre:hover h4, .pre:hover p{
+	visibility: visible;
+}
+.present:hover h4, .present:hover p{
+	visibility: visible;
+}
+.post:hover h4, .post:hover p{
+	visibility: visible;
+}
+
+.item img{
+	width: 100%;
+	margin:0;
+	position:absolute;
+	visibility: visible;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item:hover img{
+	position:none;
+	visibility: hidden;
+}
+
 .item {
   text-align: center;
   border-radius: 0px;
@@ -595,13 +650,13 @@ size: 20;
   overflow: hidden;
 	display:flex;
 	resize: none;
-	padding: 1rem 0rem 1rem 0rem;
+	padding: 0;
 	display :inline-block;
 	background: white;
-	padding: 45px;
-	width: 250px;
-	height: 310px;
+	width: 340px;
+	height: 380px;
 	margin :10px;
+
 }
 
 .item:hover{
@@ -613,16 +668,20 @@ size: 20;
   border-bottom: 5px solid #B8DDFF;
 }
 
-@media(min-width:980px) {
+.service-icons{
+	font-size: 30px;
+	color: black;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	padding: 1rem 0rem 0rem 3rem;
 
-  .service-icons{
-    font-size: 55px;
-    padding-top: 1rem;
-  }
+}
+
+@media(min-width:980px) {
 
   .item p{
     line-height:26px;
-    font-style: italic;
     font-size: 15px;
     font-weight: 300;
     padding: 4rem 0rem 1rem 0rem;
@@ -659,7 +718,6 @@ size: 20;
   .item p{
     font-size:12px;
     line-height:26px;
-    font-style: italic;
     font-weight: 300;
   }
 
@@ -706,7 +764,6 @@ size: 20;
   .item p{
     font-size:14px;
     line-height:26px;
-    font-style: italic;
     font-weight: 200;
   }
 
@@ -745,7 +802,6 @@ size: 20;
   .item p{
     font-size:14px;
     line-height:26px;
-    font-style: italic;
     font-weight: 200;
   }
   .service {
@@ -795,7 +851,6 @@ size: 20;
   .item p{
     font-size:11px;
     line-height: 20px;
-    font-style: italic;
     font-weight: 200;
   }
   .item h4 {
@@ -860,23 +915,33 @@ size: 20;
 .test-container  p {
   font-size: calc(10px + (60 - 40) * ((100vw - 300px) / (2000 - 300)));
 	font-weight: 100;
-	padding: 0rem 4rem 0rem 5rem;
+	padding: 0rem 2rem 0rem 3rem;
   font-size: 20px;
   line-height: 33px;
 	color: black;
+	justify-content: left;
+	text-align: left;
 }
 
 .test-container h5 {
-	font-weight: 600;
-	padding: 0rem 4rem 0rem 5rem;
+	font-weight: 300;
+	padding: 0rem 4rem 0rem 3rem;
   font-size: 23px;
   line-height: 33px;
 	color: black;
+	justify-content: left;
+	text-align: left;
 }
 .test-container{
 	min-height: 65vh;
 	margin-bottom: 4rem;
 	display: flex;
+}
+.test-div{
+	min-width: 150px;
+  max-width: 410px;
+  width: auto;
+  display: inline-block;
 }
 
 .test-underline{
@@ -889,13 +954,36 @@ size: 20;
 	margin-left: 5rem;
 }
 
+.pic {
+  display: inline-block;
+  border: 4px solid white;
+}
+
+.pic img {
+  width: 100%;
+  height: 8rem;
+}
+
+.test-container {
+  position:relative;
+	justify-content: center;
+	text-align: center;
+}
+
+.testimony-pic {
+  display: inline-block;
+  border: 4px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 4px #A7D3FD;
+  overflow: hidden;
+  z-index: 1;
+}
 
 
 @media(min-width:980px) {
 
 .item p{
 	line-height:26px;
-	font-style: italic;
 	font-size: 15px;
 	font-weight: 300;
 	padding: 0rem 0rem 1rem 0rem;
@@ -944,7 +1032,6 @@ size: 20;
 .item p{
 	font-size:12px;
 	line-height:26px;
-	font-style: italic;
 	font-weight: 300;
 }
 .service {
@@ -963,7 +1050,6 @@ size: 20;
 	resize:none;
 	margin: auto;
 }
-
 }
 
 
@@ -1000,7 +1086,6 @@ size: 20;
 .item p{
 	font-size:14px;
 	line-height:26px;
-	font-style: italic;
 	font-weight: 200;
 }
 .service {

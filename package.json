@@ -36,8 +36,10 @@
     ]
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "animate.css": "^4.1.1",
     "babel-preset-react": "^6.24.1",
+    "boxicons": "^2.1.4",
     "gh-pages": "^4.0.0",
     "grommet-icons": "^4.7.0",
     "grommet-styles": "^0.2.0",

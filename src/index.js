@@ -37,10 +37,9 @@ ReactDOM.render(
   		<Landing />
   		<About />
       <Mid1/>
-      <Service />
-      <Process/>
-      <Projects />
       <Testimonials/>
+      <Projects />
+      <Service />
       <Contact />
   		</>} />
       <Route path="/about" element={<About />} />

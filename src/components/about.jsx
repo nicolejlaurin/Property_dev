@@ -16,9 +16,14 @@ export default function About() {
         The foundation on which you build your life
         </h4>
     		<p>
-        At New Wave Property Group, we’re not simply a partner to our communities — we’re a part of them.
-        That means collaborating with the places where we work, customizing developments to meet the neighborhoods’ specific needs, and identifying the highest and best use for each property — all while keeping each local community's best interest front and center.
-        </p>
+        At New Wave Property Group, we're not just constructing buildings, we bring dreams to life.
+        Each investment we receive signifies a step towards a more prosperous Canada.
+        It's about strengthening our communities, supporting our neighbours, and creating a brighter future for the next generation.
+        Together, we are not only amassing wealth for individual families but weaving the very fabric of our nation,
+        promising a fruitful tomorrow for our next generation.
+        Join us, step by step, brick by brick - as we progressively turn every Canadian's dream of owning a home into reality.
+
+  </p>
         <Link to='/aboutpage'>
           <button className="button2" >Learn more           <BsArrowRight class= "arrow-image" width={'2rem'}></BsArrowRight> </button>
         </Link>
