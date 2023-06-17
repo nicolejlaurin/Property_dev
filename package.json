@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicolejlaurin/CN.git"
+    "url": "git+https://github.com/nicolejlaurin/Property_dev.git"
   },
   "author": "Nicole Laurin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nicolejlaurin/CN/issues"
+    "url": "https://github.com/nicolejlaurin/Property_dev/issues"
   },
-  "homepage": "https://coldglobalenterprises.com",
+  "homepage": "https://newwavepropertygroup.ca",
   "browserslist": {
     "production": [
       ">0.2%",
