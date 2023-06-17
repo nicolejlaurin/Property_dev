@@ -11,8 +11,7 @@ export default () => (
 		Management
 		</h4>
 		<p>
-		Pro-Found has formed many relationships across the basketball industry ranging from the NBA, FIBA, International, etc. Our management team works closely with our clients to maximize the opportunities we can provide with a wide variety of resources on and off the court.
-		</p>
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi		</p>
 		</div>
 	</div>
 	</div>

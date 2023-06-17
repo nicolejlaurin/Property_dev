@@ -12,8 +12,7 @@ export default () => (
 		Consultation
 		</h4>
 		<p>
-		Our company takes pride in creating and implementing the right marketing strategies for our clients and brands. Pro-Found will advise our clients with marketing plans and tactics to help you achieve your business goal, target markets, and marketing campaigns. Please contact us if you have any questions or would like to consult with us in further detail about our personalized services.
-		</p>
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi 		</p>
 		</div>
 	</div>
 

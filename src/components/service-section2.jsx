@@ -11,8 +11,7 @@ export default () => (
 		Marketing
 		</h4>
 		<p>
-		Pro-Found believes each and every client deserves hands-on attention. Our dynamic marketing strategy primarily focuses on finding our clients the best fit and organic brand partnerships. We want to ensure that every opportunity provided can lead to fruitful and long-lasting relationships. We assist our clients with professional marketing, media, branding, and public relations.We believe in bringing your brand and entrepreneurial spirit to life.
-		</p>
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi		</p>
 		</div>
 	</div>
 
