@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/nicolejlaurin/Property_dev/issues"
   },
-  "homepage": "https://github.com/nicolejlaurin/Property_dev",
+  "homepage": "https://newwavepropertygroup.netlify.app",
   "browserslist": {
     "production": [
       ">0.2%",
